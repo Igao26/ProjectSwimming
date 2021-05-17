@@ -1,0 +1,76 @@
+    #menu{
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: left;
+    width: 100%;
+    background-color:lightblue}
+
+    #lista1{
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+        overflow: hidden;
+        background-color:lightblue; }
+
+    .itemlista{
+        display: inline-block;
+        padding: 14px 16px;   
+        background-color: crimson;
+        border-right: 1px solid:blue;
+    }    
+
+    #imagem1{
+        width: 450px;
+        height:250px;
+        padding: 0%;
+        margin-left: 3px;
+        margin-top: 1px;
+    }
+
+    #banner{
+        background-color:lightskyblue;
+    }
+
+
+    #info1{
+        float: right;
+        margin-right: 195px;
+        margin-top: 55px;
+    }
+
+    #info2{
+        float: right;
+        margin-right: 350px;
+        margin-top: 0px;
+    }
+
+    #texto{
+        line-height: auto;
+        margin-right: 250px;
+
+    }
+
+    #email
+    {
+        margin-left:auto;
+        padding:auto;
+        background-color: lightblue;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    #nome{
+    padding: 5px;
+    font-style: italic;
+    background-color:lightcyan;
+    }
+
+        @media screen and(max-width:540px;)
+        
+        #imagem1{
+            width:250px;
+            height: auto;
+        }
